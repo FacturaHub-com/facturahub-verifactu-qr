@@ -1,0 +1,24 @@
+{
+  "name": "@facturahub/verifactu-qr",
+  "version": "0.1.0",
+  "description": "Genera el QR de verificación Veri*Factu de la AEAT (URL de cotejo + imagen PNG/SVG, nivel M). Para facturas en España.",
+  "keywords": ["verifactu", "veri*factu", "qr", "aeat", "españa", "spain", "facturacion", "validarqr", "factura electronica"],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" } },
+  "files": ["dist"],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "author": "FacturaHub",
+  "homepage": "https://facturahub.com?utm_source=npm&utm_medium=referral&utm_campaign=verifactu-qr",
+  "repository": { "type": "git", "url": "git+https://github.com/FacturaHub-com/facturahub-verifactu-qr.git" },
+  "dependencies": { "qrcode": "^1.5.3" },
+  "devDependencies": { "@types/qrcode": "^1.5.5", "tsup": "^8.0.0", "typescript": "^5.4.0", "vitest": "^1.6.0" }
+}
