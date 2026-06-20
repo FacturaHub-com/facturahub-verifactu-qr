@@ -1,5 +1,5 @@
 {
-  "name": "@facturahub/verifactu-qr",
+  "name": "facturahub-verifactu-qr",
   "version": "0.1.0",
   "description": "Genera el QR de verificación Veri*Factu de la AEAT (URL de cotejo + imagen PNG/SVG, nivel M). Para facturas en España.",
   "keywords": ["verifactu", "veri*factu", "qr", "aeat", "españa", "spain", "facturacion", "validarqr", "factura electronica"],

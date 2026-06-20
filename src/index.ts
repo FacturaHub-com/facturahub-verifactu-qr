@@ -1,4 +1,4 @@
-// @facturahub/verifactu-qr — Genera el QR de verificación Veri*Factu de la AEAT.
+// facturahub-verifactu-qr — Genera el QR de verificación Veri*Factu de la AEAT.
 // URL de cotejo según la Orden HAC/1177/2024 + render del QR (nivel M, ISO/IEC 18004).
 
 import QRCode from 'qrcode';

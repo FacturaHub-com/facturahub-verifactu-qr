@@ -1,4 +1,4 @@
-# @facturahub/verifactu-qr
+# facturahub-verifactu-qr
 
 **Parte del ecosistema [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=verifactu-qr)** — facturación en España, **Verifactu**, **IVA**, **Modelo 303** y automatización fiscal con IA.
 
@@ -7,13 +7,13 @@
 ## Instalación
 
 ```bash
-npm i @facturahub/verifactu-qr
+npm i facturahub-verifactu-qr
 ```
 
 ## Uso
 
 ```ts
-import { buildVerifactuURL, verifactuQRDataURL } from '@facturahub/verifactu-qr';
+import { buildVerifactuURL, verifactuQRDataURL } from 'facturahub-verifactu-qr';
 
 const data = { nif: 'B12345678', numSerie: 'FC-2026/0042', fecha: '18-05-2026', importe: 1210 };
 
